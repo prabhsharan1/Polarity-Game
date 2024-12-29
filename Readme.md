@@ -1,6 +1,8 @@
 # Polarity Game
 
-**Polarity Game** is an exciting 2D physics-based game where players navigate through magnetic fields with changing polarities. The goal is to collect objects, avoid obstacles, and reach the end goal while switching polarities to interact with magnetic forces.
+**Polarity Game** is an exciting 2D physics-based game where players navigate through magnetic fields with changing polarities. The goal is to collect objects, avoid obstacles, and reach the end goal while switching polarities to interact with magnetic forces. 
+
+![Polarity Game Screenshot](https://raw.githubusercontent.com/prabhsharan1/RFM/main/Polarity%20Game%201592x1198.png)
 
 ## Features
 
