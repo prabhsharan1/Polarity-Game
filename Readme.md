@@ -1,18 +1,18 @@
 # Polarity Game
 
-**Polarity Game** is an exciting 2D physics-based game where players navigate through magnetic fields with changing polarities. The goal is to collect objects, avoid obstacles, and reach the end goal while switching polarities to interact with magnetic forces. 
+**Polarity Game** is an exciting 2D physics-based game where players navigate through magnetic fields with changing polarities. The goal is to collect objects, avoid obstacles, and reach the end goal while switching polarities to interact with magnetic forces.
 
 ![Polarity Game Screenshot](https://raw.githubusercontent.com/prabhsharan1/RFM/main/Polarity%20Game%201592x1198.png)
 
 ## Features
 
-- **Magnetic Forces:** The player experiences magnetic forces depending on the polarity they choose (positive or negative).
-- **Multiple Levels:** The game features multiple levels, with each level introducing more obstacles and collectibles.
-- **Time Challenge:** A timer counts down as players progress through the levels, increasing the challenge as the game advances.
-- **Collectibles:** The player must collect items to score points.
-- **Polarity Switching:** Players can switch between positive and negative polarity using the spacebar to interact with magnetic objects.
-- **Background Music & Sound Effects:** Background music and sound effects are included to enhance the gaming experience.
-- **Dynamic Difficulty:** The game becomes progressively more difficult as the player advances through levels, with increasing speed and obstacles.
+- **Magnetic Forces:** Experience dynamic magnetic forces depending on the chosen polarity (positive or negative).
+- **Multiple Levels:** Navigate through progressively challenging levels with increasing obstacles and collectibles.
+- **Time Challenge:** A countdown timer adds urgency and increases the challenge as the game advances.
+- **Collectibles:** Collect items to score points and unlock new levels.
+- **Polarity Switching:** Switch between positive and negative polarity using the spacebar to interact with magnetic objects.
+- **Background Music & Sound Effects:** Immersive background music and sound effects enhance gameplay.
+- **Dynamic Difficulty:** Difficulty increases with faster speeds and more complex obstacles as you progress.
 
 ## Installation
 
@@ -28,7 +28,7 @@ git clone https://github.com/yourusername/polarity-game.git
 
 ### Step 2: Install Dependencies
 
-Ensure you have Python installed, and then install the necessary dependencies:
+Ensure you have Python installed, then install the necessary dependencies:
 
 ```bash
 pip install pygame requests
@@ -41,6 +41,10 @@ Navigate to the project directory and run the game with:
 ```bash
 python polarity_game.py
 ```
+
+### Download for Mac or Linux
+
+If you prefer a pre-built version, download the game for Mac or Linux from [Polarity Game on itch.io](https://prabhsharan1.itch.io/polarity-game).
 
 ## Game Controls
 
@@ -60,10 +64,10 @@ These files are automatically downloaded if they do not exist in the local direc
 ## Game Flow
 
 1. The player starts at the bottom-left of the screen and must navigate through each level by collecting items and avoiding magnetic obstacles.
-2. Magnetic objects (magnets) will either attract or repel the player, depending on the player's current polarity.
-3. The player must switch between positive and negative polarity to interact with different magnetic objects and avoid collisions with them.
-4. Collectibles appear throughout the level. The player must collect these to score points.
-5. Once the player collects all the items or reaches the goal, the level advances. If the player successfully completes all levels, they win the game.
+2. Magnetic objects (magnets) either attract or repel the player, depending on the player's current polarity.
+3. Players must switch between positive and negative polarity to interact with different magnetic objects and avoid collisions.
+4. Collectibles appear throughout the level. Players must collect these to score points.
+5. Once all items are collected or the goal is reached, the level advances. Successfully completing all levels results in victory.
 
 ## Game Development Details
 
@@ -90,3 +94,4 @@ Feel free to contribute to the development of this game! You can fork the reposi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
